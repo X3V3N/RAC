@@ -1,0 +1,200 @@
+.img-brand {
+  height: 20%;
+  width: 20%;
+}
+.navbar {
+  background-color: white;
+}
+#navitem {
+  font-weight: bold;
+  padding-left: 50px;
+}
+.padding-nav {
+  width: 30px;
+}
+.padding-1 {
+  height: 85px;
+  background-color: #B9FFF8;
+}
+#slogan {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 300%;
+}
+#row-1 {
+  height: auto;
+  background-color: #B9FFF8;
+  text-align: center;
+  padding: 100px 0;
+}
+.padding-2 {
+  height: 100px;
+}
+.navbar-toggler {
+  margin: 0 60px;
+}
+.mem-odometer {
+  font-size: 48px;
+  color: #FFCD38;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding: 20px;
+}
+.con-odometer {
+  font-size: 48px;
+  color: #B983FF;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding: 20px 70px;
+}
+.club-odometer {
+  font-size: 48px;
+  color: #367E18;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding: 20px;
+}
+#row-2 {
+  text-align: center;
+}
+#od-title1 {
+  font-style: italic;
+  font-weight: normal;
+  color: #FFCD38;
+}
+#od-title2 {
+  font-style: italic;
+  font-weight: normal;
+  color: #B983FF;
+}
+#od-title3 {
+  font-style: italic;
+  font-weight: normal;
+  color: #367E18;
+}
+#B1 {
+  margin-top: 110px;
+  border-radius: 2px;
+  border-color: #FFCD38;
+}
+#B2 {
+  margin-top: 110px;
+  border-radius: 2px;
+  border-color: #B983FF;
+}
+#B3 {
+  margin-top: 110px;
+  border-radius: 2px;
+  border-color: #367E18;
+}
+.padding-3 {
+  height: 30px;
+}
+.Perks {
+  height: 400px;
+}
+.S1:hover {
+  color: #FFCD38;
+}
+.S2:hover {
+  color: #B983FF;
+}
+.S3:hover {
+  color: #367E18;
+}
+.ic1 {
+  color: #FFCD38;
+}
+.ic2 {
+  color: #B983FF;
+}
+.ic3 {
+  color: #367E18;
+}
+.Events {
+  text-align: center;
+}
+.event {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+.About-Us {
+  text-align: center;
+  margin: auto;
+  background-color: #E8F9FD;
+}
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+.about:hover {
+  color: #182747;
+}
+.event:hover {
+  color: #182747;
+}
+.about-text {
+  font-family: serif;
+  font-weight: lighter;
+}
+.Contact-Us {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.foot {
+  height: 20%;
+  background-color: #B9FFF8;
+  width: 100%;
+}
+.brands {
+  text-align: center;
+}
+.F1 {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #B9FFF8;
+}
+.F2 {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #B9FFF8;
+}
+.F3 {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #B9FFF8;
+}
+.F-logo {
+  width: 145px;
+  text-align: center;
+  padding-left: 30px;
+  background-color: #B9FFF8;
+}
+#gmail {
+  padding-top: 50px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #B9FFF8;
+}
+.contacts {
+  padding-top: 30px;
+  text-align: left;
+  padding-left: 20px;
+  background-color: #B9FFF8;
+}
+.INFO {
+  background-color: white;
+  border-radius: 24px;
+  border-color: blue;
+}
+.T {
+  padding: 20px;
+}
+u {
+  color: blue;
+}
