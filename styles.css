@@ -151,6 +151,7 @@
 }
 .brands {
   text-align: center;
+  background-color: #B9FFF8;
 }
 .F1 {
   padding-top: 30px;
@@ -174,6 +175,9 @@
   width: 145px;
   text-align: center;
   padding-left: 30px;
+  background-color: #B9FFF8;
+}
+.R-logo {
   background-color: #B9FFF8;
 }
 #gmail {
