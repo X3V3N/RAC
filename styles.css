@@ -76,16 +76,19 @@
   margin-top: 110px;
   border-radius: 2px;
   border-color: #FFCD38;
+  box-shadow: 0 0 10px #FFCD38;
 }
 #B2 {
   margin-top: 110px;
   border-radius: 2px;
   border-color: #B983FF;
+  box-shadow: 0 0 10px #B983FF;
 }
 #B3 {
   margin-top: 110px;
   border-radius: 2px;
   border-color: #367E18;
+  box-shadow: 0 0 10px #367E18;
 }
 .padding-3 {
   height: 30px;
