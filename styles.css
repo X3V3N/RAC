@@ -24,7 +24,8 @@
   height: auto;
   background-color: #B9FFF8;
   text-align: center;
-  padding: 100px 0;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 .padding-2 {
   height: 100px;
@@ -198,3 +199,7 @@
 u {
   color: blue;
 }
+iframe {
+  margin: 10%;
+}
+
