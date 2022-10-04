@@ -38,7 +38,15 @@
               <a class="nav-link" href="#" data-bs-toggle=" tooltip" data-bs-placement="top" title="HOME PAGE">Home</a>
             </li>
             <li class="nav-item pe-3">
-              <a class="nav-link" href="#" data-bs-toggle=" tooltip" data-bs-placement="top" title="EVENTS">Events</a>
+              <div class="dropdown">
+                <a class="nav-link btn dropdown-toggle" style="text-align: left;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  <b>Events</b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">2021-22 events</a></li>
+                  <li><a class="dropdown-item" href="#">2022-23 events</a></li>
+                </ul>
+              </div>
             </li>
             <li class="nav-item pe-3">
               <a class="nav-link" href="#" data-bs-toggle=" tooltip" data-bs-placement="top" title="ABOUT US">About Us</a>
@@ -165,7 +173,23 @@
       <div class="About-Us">
         <h1 class="about">About Us 📄</h1>
         <div class="about-text">
-          <p></p>
+          <p>
+          <h4 style="font-weight: bold">Rotary International:</h4>
+          <br>
+          Rotary International is an international service organization whose stated purpose is to bring together business and professional leaders in order to provide humanitarian services, encourage high ethical standards in all vocations, and
+          help build goodwill and peace in the world. It is a secular organization open to all persons regardless of race, colour, creed, religion, gender, or political preference. There are more than 46,000<span id="dots">...</span><span id="more">
+            Rotary and Rotaract clubs and over 1.2
+            million members worldwide.
+            <br>
+            <br>
+            <h4 style="font-weight: bold">Rotaract Club of VIT Chennai Campus:</h4>
+            <br>
+            THE ROTARACT CLUB of VIT University Chennai, an initiative of The Rotary International, is a service club for students of VIT to organize service-oriented activities, develop leadership and professional skills, and socialize amongst
+            peers. Rotaract helps one to develop professional and leadership skills. It also provides opportunities for young people to address the needs and concerns of the community and the whole world. For joining Rotaract one must have the
+            mindset to render selfless service to humanity and also at every time you must be ready to surrender the 4T's, namely, Time, Talent, Treasure and Thinking.
+          </span>
+          </p>
+          <button onclick="myFunction()" id="myBtn">Read more</button>
         </div>
       </div>
       <div class="Contact-Us">
@@ -207,7 +231,23 @@
       return new bootstrap.Tooltip(tooltipTriggerEl)
     })
   </script>
-  <script src="index.js" charset="utf-8"></script>
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
   <script src="odometer.js"></script>
   <script>
     const memOdometer = document.querySelector(".mem-odometer");
