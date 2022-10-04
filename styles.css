@@ -141,6 +141,14 @@
 .about-text {
   font-family: serif;
   font-weight: lighter;
+  padding-bottom: 40px;
+  width: 50%;
+  margin: auto;
+  font-size: 25px;
+  text-align: left;
+}
+#more {
+  display: none;
 }
 .Contact-Us {
   text-align: center;
