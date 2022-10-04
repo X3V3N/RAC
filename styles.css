@@ -207,6 +207,8 @@
   background-color: white;
   border-radius: 24px;
   border-color: blue;
+  box-shadow: 0 0 10px blue;
+  font-weight: bold;
 }
 .T {
   padding: 20px;
