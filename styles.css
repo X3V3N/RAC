@@ -296,3 +296,7 @@ u {
 iframe {
   margin: 10%;
 }
+
+body {
+  overflow-x: hidden;
+}
